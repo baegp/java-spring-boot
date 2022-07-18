@@ -1,0 +1,172 @@
+
+.danh-sach-sp{
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: auto;
+    max-width: 1100px;
+    background-color: #ffffff;
+}
+
+.danh-sach-sp input{
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid #ddd;
+}
+
+.list-item-product{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.item-product{
+    flex-basis: 20%;
+    text-align: center;
+    padding: 20px;
+}
+
+.danh-sach-sp h3{
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+}
+
+
+
+.san-pham-mua{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.san-pham-mua input{
+    max-width: 80px;
+    text-align: center;
+    padding: 3px 10px;
+}
+
+.item-sp{
+    flex-basis: 20%;
+    text-align: center;
+    padding: 20px;
+}
+
+.thanh-toan{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.tt-thanh-toan{
+    flex-basis: 20%;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer{
+    margin-top: 20px;
+}
+
+.buttons_added {
+    opacity:1;
+    display:inline-block;
+    display:-ms-inline-flexbox;
+    display:inline-flex;
+    white-space:nowrap;
+    vertical-align:top;
+}
+
+/* thong tin khach hang */
+.container-khach-hang{
+    max-width: 1400px;
+    margin: auto;
+    margin-bottom: 50px;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+}
+
+.container-khach-hang h1{
+    margin-bottom: 10px;
+}
+
+.form-khach-hang input{
+    width: 100%;
+}
+
+.form-khach-hang button{
+    margin-top: 10px;
+    padding: 10px 0px;
+    width: 100%;
+    outline: none;
+}
+
+.form-khach-hang input, label{
+    padding: 5px 0px;
+    margin-bottom: 10px;
+}
+.infor-khach-hang{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.infor-khach-hang input{
+    outline: none;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+ .infor-khach-hang input:focus{
+    border: 1px solid #007784;
+}
+
+button{
+    border: 1px solid #DDD;
+}
+
+.btn{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #f7452e00;
+    color: #007784;
+    border: 3px solid #007784;
+}
+
+.btnPrimary:hover{
+    background-color: #007784;
+    color: white;
+}
+
+.danh-sach-sp h1{
+    font-size: 16px;
+    color: #007784;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+.infor-khach-hang h1{
+    font-size: 16px;
+    color: #007784;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+.tien{
+    color: #F7452E;
+}
+
+.anh-san-pham img{
+    width: 50%;
+}
+
+.fa-trash-alt:hover{
+    color: #007784;
+}
+
+.infor-khach-hang input{
+    padding: 5px 5px;
+}
